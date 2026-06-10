@@ -5,3 +5,12 @@ services:
     branch: main
     dockerfilePath: Dockerfile
     cache: false
+    envVars:
+      - key: APP_URL
+        value: https://ecomerceb2c.onrender.com
+      - key: ASSET_URL
+        value: https://ecomerceb2c.onrender.com
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false

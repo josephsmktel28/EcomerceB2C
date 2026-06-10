@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\URL;
+use Illuminate\Http\Request;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -20,6 +21,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        URL::forceScheme('https');
+        if ($this->app->environment('production')) {
+            Request::setTrustedProxies(
+                ['0.0.0.0/0', '::/0'],
+                Request::HEADER_X_FORWARDED_ALL
+            );
+
+            URL::forceScheme('https');
+        }
     }
 }
