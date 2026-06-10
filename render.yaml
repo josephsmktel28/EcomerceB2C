@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ecomerceb2c
+    env: docker
+    branch: main
+    dockerfilePath: Dockerfile
+    cache: false
