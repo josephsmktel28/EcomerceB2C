@@ -10,7 +10,19 @@ RUN npm run build
 FROM composer:2.7 AS composer
 WORKDIR /app
 COPY composer.json composer.lock ./
-RUN composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        git \
+        unzip \
+        libzip-dev \
+        zlib1g-dev \
+        libicu-dev \
+        libxml2-dev \
+        ca-certificates \
+    && docker-php-ext-configure zip --with-libzip \
+    && docker-php-ext-install zip intl \
+    && rm -rf /var/lib/apt/lists/* \
+    && composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
 COPY . /app
 
 FROM php:8.2-apache
