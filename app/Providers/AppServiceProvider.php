@@ -24,7 +24,10 @@ class AppServiceProvider extends ServiceProvider
         if ($this->app->environment('production')) {
             Request::setTrustedProxies(
                 ['0.0.0.0/0', '::/0'],
-                Request::HEADER_X_FORWARDED_ALL
+                Request::HEADER_X_FORWARDED_FOR
+                | Request::HEADER_X_FORWARDED_HOST
+                | Request::HEADER_X_FORWARDED_PORT
+                | Request::HEADER_X_FORWARDED_PROTO
             );
 
             URL::forceScheme('https');
