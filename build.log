@@ -1,0 +1,265 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 1.97kB done
+#1 DONE 0.4s
+
+#2 resolve image config for docker-image://docker.io/docker/dockerfile:1
+#2 DONE 3.2s
+
+#3 docker-image://docker.io/docker/dockerfile:1@sha256:87999aa3d42bdc6bea60565083ee17e86d1f3339802f543c0d03998580f9cb89
+#3 resolve docker.io/docker/dockerfile:1@sha256:87999aa3d42bdc6bea60565083ee17e86d1f3339802f543c0d03998580f9cb89
+#3 resolve docker.io/docker/dockerfile:1@sha256:87999aa3d42bdc6bea60565083ee17e86d1f3339802f543c0d03998580f9cb89 0.3s done
+#3 sha256:e82bbc85c3cb06cf2a5a27b058208b43984448acbcd6a832cd1491933d4376dd 1.13kB / 1.13kB done
+#3 sha256:1a998cca4d41cfecafb1989342c5e7378bc992589af7d47510c4b854bebfc7d7 1.33kB / 1.33kB done
+#3 sha256:87999aa3d42bdc6bea60565083ee17e86d1f3339802f543c0d03998580f9cb89 9.08kB / 9.08kB done
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 0B / 14.36MB 0.1s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 1.05MB / 14.36MB 0.9s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 2.10MB / 14.36MB 1.3s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 3.15MB / 14.36MB 1.8s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 4.19MB / 14.36MB 2.0s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 5.24MB / 14.36MB 2.4s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 6.29MB / 14.36MB 2.8s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 7.34MB / 14.36MB 3.1s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 8.39MB / 14.36MB 3.5s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 9.44MB / 14.36MB 4.0s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 10.49MB / 14.36MB 4.4s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 11.53MB / 14.36MB 4.6s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 12.58MB / 14.36MB 5.1s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 13.63MB / 14.36MB 5.4s
+#3 sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 14.36MB / 14.36MB 5.7s done
+#3 extracting sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 0.1s
+#3 extracting sha256:50ba52cd6a2c01eaf1a9efbedc7c75b5da5e3965c1586001c722980487a73fd7 0.7s done
+#3 DONE 7.3s
+
+#4 [internal] load metadata for docker.io/library/node:20
+#4 DONE 2.8s
+
+#5 [internal] load metadata for docker.io/library/php:8.2-apache
+#5 ...
+
+#6 [internal] load metadata for docker.io/library/composer:2.7
+#6 DONE 3.0s
+
+#5 [internal] load metadata for docker.io/library/php:8.2-apache
+#5 DONE 3.2s
+
+#7 [internal] load .dockerignore
+#7 transferring context:
+#7 transferring context: 314B done
+#7 DONE 0.2s
+
+#8 [internal] load build context
+#8 DONE 0.0s
+
+#9 [stage-2 1/9] FROM docker.io/library/php:8.2-apache@sha256:affc043fbd9acaa9a6394a71d162726fc0a6e4bea0400a3b94f925b6130858dd
+#9 resolve docker.io/library/php:8.2-apache@sha256:affc043fbd9acaa9a6394a71d162726fc0a6e4bea0400a3b94f925b6130858dd
+#9 resolve docker.io/library/php:8.2-apache@sha256:affc043fbd9acaa9a6394a71d162726fc0a6e4bea0400a3b94f925b6130858dd 0.5s done
+#9 sha256:affc043fbd9acaa9a6394a71d162726fc0a6e4bea0400a3b94f925b6130858dd 10.35kB / 10.35kB done
+#9 sha256:bc7a503572236c4f5fa40a83e6e8a53eb71d502909d6c4d5641b93e34a728303 3.82kB / 3.82kB done
+#9 sha256:3ae148b09f88b41d3c986f497571f0ca74fddd2d56ab9fc90603e54e8e38a382 11.93kB / 11.93kB done
+#9 ...
+
+#8 [internal] load build context
+#8 transferring context: 45.34MB 0.8s done
+#8 DONE 1.3s
+
+#10 [composer 1/5] FROM docker.io/library/composer:2.7@sha256:cb3483dc851665462a66c59982577dfbbde0ae2059e8b5550c2f49f44b8c333e
+#10 resolve docker.io/library/composer:2.7@sha256:cb3483dc851665462a66c59982577dfbbde0ae2059e8b5550c2f49f44b8c333e 0.5s done
+#10 sha256:cb3483dc851665462a66c59982577dfbbde0ae2059e8b5550c2f49f44b8c333e 10.09kB / 10.09kB done
+#10 sha256:57d668f89bfb97187cad9a4f2a9df5a24b64d79f8202d414e8340549d009bd4e 3.61kB / 3.61kB done
+#10 sha256:e401e0c0405c7d5c7f7534e3665c525af54dd830fe8a0c25114527af98cfb33a 11.32kB / 11.32kB done
+#10 sha256:bb15916673af8229814dcc44164d4616a6141bc5b586ae9362e741d64c6e4c91 1.05MB / 3.28MB 1.2s
+#10 sha256:9feb3258c4c6a46b7e182fa372bfe03ff37fd0fdf7f6894ca97b564fc382d7d4 0B / 943B 1.2s
+#10 sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170 0B / 3.62MB 1.2s
+#10 sha256:bb15916673af8229814dcc44164d4616a6141bc5b586ae9362e741d64c6e4c91 2.10MB / 3.28MB 1.4s
+#10 sha256:bb15916673af8229814dcc44164d4616a6141bc5b586ae9362e741d64c6e4c91 3.28MB / 3.28MB 1.8s
+#10 sha256:9feb3258c4c6a46b7e182fa372bfe03ff37fd0fdf7f6894ca97b564fc382d7d4 943B / 943B 1.7s done
+#10 sha256:bb15916673af8229814dcc44164d4616a6141bc5b586ae9362e741d64c6e4c91 3.28MB / 3.28MB 1.8s done
+#10 sha256:32e436918c34ed4c536bdbaeace5213a8aaeb796ec65951fe681a10758ae2677 0B / 223B 1.9s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 0B / 12.51MB 2.1s
+#10 sha256:32e436918c34ed4c536bdbaeace5213a8aaeb796ec65951fe681a10758ae2677 223B / 223B 2.1s done
+#10 sha256:57c15fd3b41bdfc8b5af169f77fdd27b0b15cf69afe4e260f650cca4d3c80600 0B / 498B 2.3s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 1.05MB / 12.51MB 2.8s
+#10 sha256:57c15fd3b41bdfc8b5af169f77fdd27b0b15cf69afe4e260f650cca4d3c80600 498B / 498B 2.8s done
+#10 sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170 1.05MB / 3.62MB 3.0s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 0B / 17.68MB 3.0s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 2.10MB / 12.51MB 3.3s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 3.15MB / 12.51MB 3.9s
+#10 sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170 2.10MB / 3.62MB 4.4s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 4.19MB / 12.51MB 4.5s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 1.05MB / 17.68MB 4.5s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 2.10MB / 17.68MB 5.1s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 5.24MB / 12.51MB 5.7s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 3.15MB / 17.68MB 5.9s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 4.19MB / 17.68MB 6.3s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 5.24MB / 17.68MB 6.9s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 6.29MB / 17.68MB 7.1s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 7.34MB / 17.68MB 7.7s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 6.29MB / 12.51MB 7.8s
+#10 sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170 3.15MB / 3.62MB 8.1s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 8.39MB / 17.68MB 8.1s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 9.44MB / 17.68MB 8.5s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 10.49MB / 17.68MB 8.8s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 11.53MB / 17.68MB 9.2s
+#10 ...
+
+#11 [node-builder 1/6] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#11 resolve docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5 0.5s done
+#11 sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5 6.41kB / 6.41kB done
+#11 sha256:cacf10e99285cbbc891452e31249c1b5ec3ba225f40028fae946b75aeaf1b66a 2.49kB / 2.49kB done
+#11 sha256:33ed5ef90e835c40007b658b2d7cb1354b282bffcb53feceb305e9feff1d98e1 6.75kB / 6.75kB done
+#11 ...
+
+#10 [composer 1/5] FROM docker.io/library/composer:2.7@sha256:cb3483dc851665462a66c59982577dfbbde0ae2059e8b5550c2f49f44b8c333e
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 12.58MB / 17.68MB 9.7s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 13.63MB / 17.68MB 10.2s
+#10 sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170 3.62MB / 3.62MB 10.6s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 14.68MB / 17.68MB 10.6s
+#10 extracting sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+#10 sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170 3.62MB / 3.62MB 10.6s done
+#10 sha256:417f9a398261bed58b52188f04ac3f78079c718c4acf213cb149f192c6b4a190 0B / 2.44kB 10.8s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 7.34MB / 12.51MB 10.9s
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 15.73MB / 17.68MB 10.9s
+#10 extracting sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170 0.3s done
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 16.78MB / 17.68MB 11.3s
+#10 extracting sha256:bb15916673af8229814dcc44164d4616a6141bc5b586ae9362e741d64c6e4c91
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 17.68MB / 17.68MB 11.6s
+#10 sha256:417f9a398261bed58b52188f04ac3f78079c718c4acf213cb149f192c6b4a190 2.44kB / 2.44kB 11.4s done
+#10 sha256:ca23a67aef6035b25a1778f5468293e5e07824ff2b9a8a23469cc3f592865840 0B / 19.71kB 11.6s
+#10 extracting sha256:bb15916673af8229814dcc44164d4616a6141bc5b586ae9362e741d64c6e4c91 0.6s done
+#10 sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 17.68MB / 17.68MB 11.8s done
+#10 sha256:ca23a67aef6035b25a1778f5468293e5e07824ff2b9a8a23469cc3f592865840 19.71kB / 19.71kB 11.9s done
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 0B / 30.37MB 12.0s
+#10 extracting sha256:9feb3258c4c6a46b7e182fa372bfe03ff37fd0fdf7f6894ca97b564fc382d7d4 0.1s done
+#10 sha256:b4fb93cef93c9ab5437aeda3f8fcef35cb533fcb206c01c3a7335742cba10cb3 0B / 259B 12.1s
+#10 extracting sha256:32e436918c34ed4c536bdbaeace5213a8aaeb796ec65951fe681a10758ae2677 0.1s done
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 8.39MB / 12.51MB 12.6s
+#10 sha256:b4fb93cef93c9ab5437aeda3f8fcef35cb533fcb206c01c3a7335742cba10cb3 259B / 259B 12.7s done
+#10 sha256:eb53576217843bdad720d57152037c8144d06173bb0053f4e76a87c87d5dad09 0B / 949.86kB 12.8s
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 2.10MB / 30.37MB 13.2s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 9.44MB / 12.51MB 13.8s
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 4.19MB / 30.37MB 14.4s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 10.49MB / 12.51MB 15.1s
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 6.29MB / 30.37MB 15.3s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 11.53MB / 12.51MB 16.4s
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 8.39MB / 30.37MB 16.4s
+#10 sha256:eb53576217843bdad720d57152037c8144d06173bb0053f4e76a87c87d5dad09 949.86kB / 949.86kB 17.1s done
+#10 sha256:f5a73dcee5a8d5154575cf0a309c5a94868ab3b9bfdf74f36c5ba41a287da166 0B / 419B 17.3s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 12.51MB / 12.51MB 17.5s
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 10.49MB / 30.37MB 17.5s
+#10 sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 12.51MB / 12.51MB 17.6s done
+#10 sha256:f5a73dcee5a8d5154575cf0a309c5a94868ab3b9bfdf74f36c5ba41a287da166 419B / 419B 17.6s done
+#10 extracting sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 0.1s
+#10 sha256:e125b08fbbe2862aa375c7a8629bed2a81f9ca9a54b0a878f8976712596abac4 0B / 93B 17.8s
+#10 extracting sha256:e567f6a279d6230e9f2dfe3ce224ced757f36a350ad19c01a56514c379d9b40c 0.1s done
+#10 extracting sha256:57c15fd3b41bdfc8b5af169f77fdd27b0b15cf69afe4e260f650cca4d3c80600
+#10 extracting sha256:57c15fd3b41bdfc8b5af169f77fdd27b0b15cf69afe4e260f650cca4d3c80600 0.1s done
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 12.58MB / 30.37MB 18.4s
+#10 sha256:e125b08fbbe2862aa375c7a8629bed2a81f9ca9a54b0a878f8976712596abac4 93B / 93B 18.2s done
+#10 extracting sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 0.1s
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 14.68MB / 30.37MB 19.5s
+#10 extracting sha256:4eea53e5dd457c24459f7202e5d629033c0951eb5add7b1e823d763add96b0c8 1.4s done
+#10 extracting sha256:417f9a398261bed58b52188f04ac3f78079c718c4acf213cb149f192c6b4a190
+#10 extracting sha256:417f9a398261bed58b52188f04ac3f78079c718c4acf213cb149f192c6b4a190 0.1s done
+#10 extracting sha256:ca23a67aef6035b25a1778f5468293e5e07824ff2b9a8a23469cc3f592865840
+#10 extracting sha256:ca23a67aef6035b25a1778f5468293e5e07824ff2b9a8a23469cc3f592865840 0.1s done
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 16.78MB / 30.37MB 22.7s
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 18.87MB / 30.37MB 27.3s
+#10 ...
+
+#11 [node-builder 1/6] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#11 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 5.24MB / 48.49MB 27.8s
+#11 sha256:e5203b2bfeff92b72e816dc6cbb1f16856f0cd592e521e3c0cfa195a78fe180e 15.73MB / 24.04MB 27.8s
+#11 ...
+
+#10 [composer 1/5] FROM docker.io/library/composer:2.7@sha256:cb3483dc851665462a66c59982577dfbbde0ae2059e8b5550c2f49f44b8c333e
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 20.97MB / 30.37MB 32.0s
+#10 ...
+
+#11 [node-builder 1/6] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#11 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 10.49MB / 48.49MB 35.5s
+#11 sha256:e5203b2bfeff92b72e816dc6cbb1f16856f0cd592e521e3c0cfa195a78fe180e 24.04MB / 24.04MB 31.6s done
+#11 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 5.24MB / 64.40MB 35.5s
+#11 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 9.44MB / 64.40MB 37.2s
+#11 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 13.63MB / 64.40MB 39.2s
+#11 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 12.58MB / 48.49MB 40.6s
+#11 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 17.83MB / 64.40MB 41.3s
+#11 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 22.02MB / 64.40MB 43.4s
+#11 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 14.68MB / 48.49MB 45.6s
+#11 ...
+
+#10 [composer 1/5] FROM docker.io/library/composer:2.7@sha256:cb3483dc851665462a66c59982577dfbbde0ae2059e8b5550c2f49f44b8c333e
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 29.36MB / 30.37MB 45.8s
+#10 ...
+
+#11 [node-builder 1/6] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#11 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 26.21MB / 64.40MB 46.1s
+#11 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 0B / 211.55MB 46.9s
+#11 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 30.41MB / 64.40MB 48.5s
+#11 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 17.83MB / 48.49MB 49.5s
+#11 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 34.60MB / 64.40MB 51.8s
+#11 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 4.19MB / 211.55MB 52.0s
+#11 ...
+
+#10 [composer 1/5] FROM docker.io/library/composer:2.7@sha256:cb3483dc851665462a66c59982577dfbbde0ae2059e8b5550c2f49f44b8c333e
+#10 sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 30.37MB / 30.37MB 46.7s done
+#10 extracting sha256:48a82bcfd91ef6eeff60a57b11a3775a64f0d82fe8edc99e837aed75bad95a67 2.5s done
+#10 extracting sha256:b4fb93cef93c9ab5437aeda3f8fcef35cb533fcb206c01c3a7335742cba10cb3 0.1s done
+#10 extracting sha256:eb53576217843bdad720d57152037c8144d06173bb0053f4e76a87c87d5dad09 0.2s done
+#10 extracting sha256:f5a73dcee5a8d5154575cf0a309c5a94868ab3b9bfdf74f36c5ba41a287da166 0.1s done
+#10 extracting sha256:e125b08fbbe2862aa375c7a8629bed2a81f9ca9a54b0a878f8976712596abac4 0.1s done
+#10 DONE 55.3s
+
+#11 [node-builder 1/6] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#11 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 19.92MB / 48.49MB 54.6s
+#11 ...
+
+#12 [composer 2/5] WORKDIR /app
+#12 DONE 1.9s
+
+#11 [node-builder 1/6] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#11 sha256:8fcda2b4d7993820b00c5488d173051e76d01ba6b85620617ba77001b0f9e2fa 38.80MB / 64.40MB 56.3s
+#11 sha256:2933ecab0f11302fd71f29aa83ad2904683246f7a8320ad0dc3a60b23f05fee9 11.53MB / 211.55MB 57.0s
+#11 ...
+
+#13 [composer 3/5] COPY composer.json composer.lock ./
+#13 DONE 0.9s
+
+#11 [node-builder 1/6] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#11 sha256:db53381ee51f9e43304e236099ba097ae1b33ae41a8007e0b6319992eb55fd00 23.07MB / 48.49MB 58.2s
+#11 ...
+
+#14 [composer 4/5] RUN apt-get update     && apt-get install -y --no-install-recommends         git         unzip         libzip-dev         zlib1g-dev         libicu-dev         libxml2-dev         ca-certificates     && docker-php-ext-configure zip --with-libzip     && docker-php-ext-install zip intl     && rm -rf /var/lib/apt/lists/*     && composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
+#14 0.791 /bin/sh: apt-get: not found
+#14 ERROR: process "/bin/sh -c apt-get update     && apt-get install -y --no-install-recommends         git         unzip         libzip-dev         zlib1g-dev         libicu-dev         libxml2-dev         ca-certificates     && docker-php-ext-configure zip --with-libzip     && docker-php-ext-install zip intl     && rm -rf /var/lib/apt/lists/*     && composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader" did not complete successfully: exit code: 127
+
+#11 [node-builder 1/6] FROM docker.io/library/node:20@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5
+#11 CANCELED
+
+#9 [stage-2 1/9] FROM docker.io/library/php:8.2-apache@sha256:affc043fbd9acaa9a6394a71d162726fc0a6e4bea0400a3b94f925b6130858dd
+#9 CANCELED
+------
+ > [composer 4/5] RUN apt-get update     && apt-get install -y --no-install-recommends         git         unzip         libzip-dev         zlib1g-dev         libicu-dev         libxml2-dev         ca-certificates     && docker-php-ext-configure zip --with-libzip     && docker-php-ext-install zip intl     && rm -rf /var/lib/apt/lists/*     && composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader:
+0.791 /bin/sh: apt-get: not found
+------
+Dockerfile:13
+--------------------
+  12 |     COPY composer.json composer.lock ./
+  13 | >>> RUN apt-get update \
+  14 | >>>     && apt-get install -y --no-install-recommends \
+  15 | >>>         git \
+  16 | >>>         unzip \
+  17 | >>>         libzip-dev \
+  18 | >>>         zlib1g-dev \
+  19 | >>>         libicu-dev \
+  20 | >>>         libxml2-dev \
+  21 | >>>         ca-certificates \
+  22 | >>>     && docker-php-ext-configure zip --with-libzip \
+  23 | >>>     && docker-php-ext-install zip intl \
+  24 | >>>     && rm -rf /var/lib/apt/lists/* \
+  25 | >>>     && composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
+  26 |     COPY . /app
+--------------------
+ERROR: failed to build: failed to solve: process "/bin/sh -c apt-get update     && apt-get install -y --no-install-recommends         git         unzip         libzip-dev         zlib1g-dev         libicu-dev         libxml2-dev         ca-certificates     && docker-php-ext-configure zip --with-libzip     && docker-php-ext-install zip intl     && rm -rf /var/lib/apt/lists/*     && composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader" did not complete successfully: exit code: 127
