@@ -127,5 +127,3 @@ Route::middleware(['auth', AuthAdmin::class])->group(function () {
     Route::get('admin/contacts/search', [AdminController::class, 'searchContacts'])->name('admin.contacts.search');
     Route::get('admin/users/search', [AdminController::class, 'searchUsers'])->name('admin.users.search');
 });
-
-URL::forceScheme('http');
