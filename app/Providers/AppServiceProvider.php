@@ -21,7 +21,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        if ($this->app->environment('production')) {
+        $forceHttps = $this->app->environment('production')
+            || str_starts_with(env('APP_URL', ''), 'https://')
+            || str_starts_with(env('ASSET_URL', ''), 'https://');
+
+        if ($forceHttps) {
             Request::setTrustedProxies(
                 ['0.0.0.0/0', '::/0'],
                 Request::HEADER_X_FORWARDED_FOR
