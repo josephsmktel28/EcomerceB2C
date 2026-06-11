@@ -4,7 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\URL;
-use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -26,9 +26,9 @@ class AppServiceProvider extends ServiceProvider
             || str_starts_with(env('ASSET_URL', ''), 'https://');
 
         if ($forceHttps) {
-            Request::setTrustedProxies(
+            SymfonyRequest::setTrustedProxies(
                 ['0.0.0.0/0', '::/0'],
-                Request::HEADER_X_FORWARDED_ALL
+                SymfonyRequest::HEADER_X_FORWARDED_ALL
             );
 
             URL::forceRootUrl(config('app.url'));
