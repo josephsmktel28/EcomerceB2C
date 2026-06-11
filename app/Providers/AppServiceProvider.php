@@ -28,7 +28,10 @@ class AppServiceProvider extends ServiceProvider
         if ($forceHttps) {
             SymfonyRequest::setTrustedProxies(
                 ['0.0.0.0/0', '::/0'],
-                SymfonyRequest::HEADER_X_FORWARDED_ALL
+                SymfonyRequest::HEADER_X_FORWARDED_FOR
+                | SymfonyRequest::HEADER_X_FORWARDED_HOST
+                | SymfonyRequest::HEADER_X_FORWARDED_PROTO
+                | SymfonyRequest::HEADER_X_FORWARDED_PORT
             );
 
             URL::forceRootUrl(config('app.url'));
